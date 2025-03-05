@@ -30,7 +30,7 @@ const Authontication = () => {
         console.error("error found",error);
         
     });
-    //alert("otp send  successfully");
+    
         setShowOtpSection(true);
         
       };
@@ -45,7 +45,7 @@ const Authontication = () => {
         console.log(err);
         alert("log in successully")
        })
-   // alert("successfully log in")
+   
       }
   return (
     <div className="container">
